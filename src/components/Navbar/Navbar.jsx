@@ -4,6 +4,7 @@ import { images } from '../../constants/';
 import './Navbar.scss';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
 import { motion } from 'framer-motion';
+//import { About } from '../../container';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -22,6 +23,15 @@ const Navbar = () => {
           </li>
         ))}
       </ul>
+
+      {/* <ul className="app__navbar-cta">
+        {['Contact'].map((item) => (
+          <li className="app__flex p-text" key={'link-${item}'}>
+            <div />
+            <a href={`#${item}`}>{item}</a>
+          </li>
+        ))}
+      </ul> */}
 
       <div className="app__navbar-menu">
           <HiMenuAlt4 onClick={() => setToggle(true)}/>

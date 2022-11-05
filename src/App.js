@@ -7,6 +7,7 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="app">
+      {/* <StickyNavbar /> */}
       <Navbar />
       <Header />
       <Games />
