@@ -6,22 +6,22 @@ import './About.scss';
 
 const About = () => {
   return (
-    <div id="#about" className="app__header app__container">
+    <div id="#about" className="app__about app__container">
       <motion.div
         whileInView={{ x: [-100, 0 ], opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
-        className="app__header-info"
+        className="app__about-info"
       >
         
         <motion.div 
           whileInView={{ opacity: [0, 1] }}
           transition={{ duration: 0.5, delayChildren: 0.5 }}
-          className="app__header-img"
+          className="app__about-img"
         >
           <img src={images.profile} alt="Hero Logo Image"/>
         </motion.div> 
         
-        <div className="app__header-content">
+        <div className="app__about-content">
           <h1 className="h1-text">About Us</h1>
           <p1 className="p-text">Ruvamo is a newly founded game development studio located in Cracow, Poland. Our aim at Ruvamo is to make the most enjoybale games for the players all around the globe, who wish exape the Earth’s barriers for a period of time. </p1>
           <h1 className="h1-text">Contact</h1>
