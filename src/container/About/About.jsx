@@ -1,6 +1,6 @@
-import React from 'react'
-import { motion } from 'framer-motion'
-import { images } from '../../constants'
+import React from 'react';
+import { motion } from 'framer-motion';
+import { images } from '../../constants';
 
 import './About.scss';
 
@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div id="#about" className="app__about app__container">
       <motion.div
-        whileInView={{ x: [-100, 0 ], opacity: [0, 1] }}
+        whileInView={{ opacity: [0, 1] }}
         transition={{ duration: 0.5 }}
         className="app__about-info"
       >
@@ -18,7 +18,7 @@ const About = () => {
           transition={{ duration: 0.5, delayChildren: 0.5 }}
           className="app__about-img"
         >
-          <img src={images.profile} alt="Hero Logo Image"/>
+          <img src={images.about} alt="Hero Logo Image"/>
         </motion.div> 
         
         <div className="app__about-content">
@@ -32,4 +32,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

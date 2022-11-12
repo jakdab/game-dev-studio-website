@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 import { images } from '../../constants/';
 import './Navbar.scss';
@@ -16,10 +16,9 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links">
-        {['About', 'Games', 'Platforms'].map((item) => (
+        {['home', 'games', 'about', 'platforms'].map((item) => (
           <li className="app__flex p-text" key={'link-${item}'}>
-            <div />
-            <a href={`#${item}`}>{item}</a>
+            <a href={`#${item}`} /* onClick={() => setToggle(false)} */ >{item}</a>
           </li>
         ))}
       </ul>
@@ -27,7 +26,6 @@ const Navbar = () => {
       {/* <ul className="app__navbar-cta">
         {['Contact'].map((item) => (
           <li className="app__flex p-text" key={'link-${item}'}>
-            <div />
             <a href={`#${item}`}>{item}</a>
           </li>
         ))}
@@ -57,4 +55,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default Navbar;

@@ -1,0 +1,42 @@
+#platforms {
+    position: relative;
+    background: var(--primary-color);
+}
+
+.app-platforms {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.app_platforms-info {
+    // flex: 0.65;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 96px;
+    height: 100%;
+    
+
+    @media screen and (max-width: 2000px) {
+        width: 100%;
+        margin-right: 0rem;
+    }
+}
+
+.app__platforms-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    padding: 0px;   
+
+}

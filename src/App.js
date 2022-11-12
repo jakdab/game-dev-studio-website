@@ -1,5 +1,7 @@
 import React from 'react';
 
+/* final import output */
+
 import { About, Footer, Header, Games, Platforms } from './container/';
 import { Navbar } from './components/';
 import "./App.scss";
@@ -18,4 +20,4 @@ const App = () => {
   );
 }
 
-export default App
+export default App;
