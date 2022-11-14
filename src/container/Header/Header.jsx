@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { AppWrap } from '../../wrapper';
 import { images } from '../../constants';
-
+//import { Buttons } from './components/';
 
 import './Header.scss';
 
@@ -18,6 +18,8 @@ const Header = () => {
           <h1 className="h1-text">discover new worlds</h1>
           <p1 className="p-text">Ruwamo is a stand-alone game development studio which offers games on consoles and mobile devices</p1>
             
+          {/* <Buttons>Success</Buttons> */}
+
           {/* <div className="tag-cmp app__flex">
             CTA
           </div> */}

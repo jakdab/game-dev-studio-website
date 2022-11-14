@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 
+//import Buttons from './components/';
 import { images } from '../../constants/';
 import './Navbar.scss';
 import { HiMenuAlt4, HiX } from 'react-icons/hi';
@@ -16,12 +17,14 @@ const Navbar = () => {
       </div>
 
       <ul className="app__navbar-links">
-        {['home', 'games', 'about', 'platforms'].map((item) => (
+        {[ 'games', 'about', 'platforms'].map((item) => (
           <li className="app__flex p-text" key={'link-${item}'}>
             <a href={`#${item}`} /* onClick={() => setToggle(false)} */ >{item}</a>
           </li>
         ))}
       </ul>
+
+      
 
       {/* <ul className="app__navbar-cta">
         {['Contact'].map((item) => (
