@@ -20,15 +20,17 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="app">
-      <Router>
-        {/* <StickyNavbar /> */}
-        <Navbar />
-        <Header />
-        <Games />
-        <About />
-        {/* <Platforms /> */}
-        <Footer />
-      </Router>
+      <div className="wrapper">
+        <Router>
+          {/* <StickyNavbar /> */}
+          <Navbar />
+          <Header />
+          <Games />
+          <About />
+          {/* <Platforms /> */}
+          <Footer />
+        </Router>
+      </div>
     </div>
   );
 }
