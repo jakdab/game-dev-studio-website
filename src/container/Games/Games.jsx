@@ -30,13 +30,14 @@ const Games = () => {
 
   return (
     <>
-      <p className="p-gradient-text">Lose yourself in new magical worlds</p>
-      <h2 className="h2-text">Explore Games</h2>
+      <div>
+        <p className="p-gradient-text">Lose yourself in new magical worlds</p>
+        <h2 className="h2-text">Explore Games</h2>
+      </div>
 
       <div className="app__tiles">
         {gameTiles.map((gameTiles, index) => (
           <motion.div
-            whileInView={{ opacity: 1 }}
             whileHover={{ scale: 1.05 }}
             transition={{ duration: 0.5, type: 'tween' }}
             className="app__tile-item"
@@ -45,7 +46,7 @@ const Games = () => {
             <img src={gameTiles.imgUrl} alt={gameTiles.title} />
             {/* Backend */}
             {/* <img src={urlFor(gameTiles.imgUrl)} alt={gameTiles.title} /> */}
-            <h2 className="bold-text" style={{ marginTop: 20 }}>{gameTiles.title}</h2>
+            {/* <h2 className="bold-text" style={{ marginTop: 20 }}>{gameTiles.title}</h2> */}
           </motion.div>
         ))}
       </div>

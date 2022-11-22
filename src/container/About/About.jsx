@@ -7,19 +7,11 @@ import './About.scss';
 const About = () => {
   return (
     <div id="#about" className="app__about app__container">
-      <motion.div
-        whileInView={{ opacity: [0, 1] }}
-        transition={{ duration: 0.5 }}
-        className="app__about-info"
-      >
+      <div className="app__about-info">
         
-        <motion.div 
-          whileInView={{ opacity: [0, 1] }}
-          transition={{ duration: 0.5, delayChildren: 0.5 }}
-          className="app__about-img"
-        >
+        <div className="app__about-img">
           <img src={images.about} alt="Hero Logo Image"/>
-        </motion.div> 
+        </div> 
         
         <div className="app__about-content">
           <h1 className="h1-text">About Us</h1>
@@ -27,7 +19,7 @@ const About = () => {
           <h1 className="h1-text">Contact</h1>
           <p1 className="p-text">Please feel free to contact us: contact@ruwamogames.com</p1>
         </div>
-      </motion.div>
+      </div>
     </div>
   )
 }

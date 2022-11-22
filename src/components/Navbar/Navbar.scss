@@ -6,14 +6,28 @@
     justify-content: space-between;
     align-items: center;
 
-    //padding: 1rem 2rem ; 
-    //background: rgba(255, 255, 255, 0);
-    //backdrop-filter: blur(4px);
-    //-webkit-backdrop-filter: blur(4px);
-
     position: fixed;
     z-index: 2;
 }
+
+// .navbar.fixed {
+//     width: 100%;
+
+//     padding: 4rem 0rem 4rem 0rem;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+
+//     position: fixed;
+//     z-index: 2;
+
+//     //background-color: var(--black-color);
+//     padding: 1rem 2rem ; 
+//     background: rgba(255, 255, 255, 0);
+//     backdrop-filter: blur(4px);
+//     -webkit-backdrop-filter: blur(4px);
+//     transition: 0.3s ease-in-out;
+// }
 
 .app_navbar-logo {
     display: flex;

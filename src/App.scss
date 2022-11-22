@@ -1,9 +1,36 @@
+* {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
 .app {
     padding: 0rem 12rem 0rem 12rem;
 
     background-color: var(--primary-color);
     font-family: var(--font-base);
-  }
+
+    @media screen and (min-width: 1440px) {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    @media screen and (max-width: 1024px) {
+
+    }
+  
+    @media screen and (max-width: 768px) {
+
+    }
+  
+    @media screen and (max-width: 375px) {
+
+    }
+}
   
 .app__whitebg {
   background-color: var(--white-color);
@@ -89,6 +116,23 @@
   text-transform: uppercase;
 
   color: var(--white-color);
+
+  @media screen and (min-width: 1440px) {
+    font-size: 4.5rem;  
+    width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 3.5rem; 
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 4.5rem; 
+  }
+
+  @media screen and (max-width: 375px) {
+    font-size: 3.5rem; 
+  }
 
   /* old code */
 
