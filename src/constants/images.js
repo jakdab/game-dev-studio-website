@@ -11,6 +11,9 @@ import google from '../assets/Google Store.png';
 import nintendo from '../assets/Nintendo Store.png';
 import appstore from '../assets/Apple Appstore.png';
 
+import youtube from '../assets/Youtube.svg';
+import twitter from '../assets/Twitter.svg';
+
 export default {
   about01,
   about02,
@@ -22,4 +25,6 @@ export default {
   google,
   nintendo,
   appstore,
+  twitter,
+  youtube,
 };
