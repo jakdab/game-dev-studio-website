@@ -8,7 +8,7 @@ import './Header.scss';
 
 const Header = () => {
   return (
-    <div className="app__header app__container">
+    <div id="#header" className="app__header">
       <div className="app__header-info">
         <div className="app__header-content">
           <h1 className="h1-text">discover new worlds</h1>

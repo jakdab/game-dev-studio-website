@@ -29,27 +29,28 @@ const Games = () => {
   // }, []);
 
   return (
-    <div className="app__games app__container">
-      <div>
-        <p className="p-gradient-text">Lose yourself in new magical worlds</p>
-        <h2 className="h2-text">Explore Games</h2>
-      </div>
-
-      <div className="div-round">
-        <iframe className="iframe-round"
-          src="https://www.youtube.com/embed/x1-5g80yw5k?controls=0" 
-          title="YouTube video player" 
-          frameborder="0" 
-          allow="
-            accelerometer; 
-            autoplay; 
-            clipboard-write; 
-            encrypted-media; 
-            gyroscope; 
-            picture-in-picture" 
-          allowfullscreen
-        >
-        </iframe>
+    <div id="#games" className="app__games app__container">
+      <div className="app__games-info">
+        <div>
+          <p className="p-gradient-text">Lose yourself in new magical worlds</p>
+          <h2 className="h2-text">Explore Games</h2>
+        </div>
+        <div className="div-round">
+          <iframe className="iframe-round"
+            src="https://www.youtube.com/embed/x1-5g80yw5k?controls=0" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="
+              accelerometer; 
+              autoplay; 
+              clipboard-write; 
+              encrypted-media; 
+              gyroscope; 
+              picture-in-picture" 
+            allowfullscreen
+          >
+          </iframe>
+        </div>
       </div>
     </div>
   )

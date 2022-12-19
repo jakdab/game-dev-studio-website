@@ -35,12 +35,12 @@ const Navbar = () => {
         </NavLink>
         <Bars />
         <NavMenu>
-          <NavLink to="/" activeStyle> Games</NavLink>
-          <NavLink to="/" activeStyle>About</NavLink>
-          <NavLink to="/" activeStyle>Platforms</NavLink>
+          <NavLink to="#games" activeStyle> Games</NavLink>
+          <NavLink to="#about" activeStyle>About</NavLink>
+          <NavLink to="#games" activeStyle>Platforms</NavLink>
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to="/">Contact</NavBtnLink>
+          <NavBtnLink to="#about">Contact</NavBtnLink>
         </NavBtn>
       </Nav>
     </>

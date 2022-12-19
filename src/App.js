@@ -20,7 +20,7 @@ import "./App.scss";
 const App = () => {
   return (
     <div className="app">
-      <div className="wrapper">
+      {/* <div className="wrapper"> */}
         <Router>
           {/* <StickyNavbar /> */}
           <Navbar />
@@ -30,7 +30,7 @@ const App = () => {
           {/* <Platforms /> */}
           <Footer />
         </Router>
-      </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -1,19 +1,22 @@
 #home {
-    position: relative;
-    background: var(--primary-color);
+    //position: relative;
+    //background: var(--primary-color);
 }
 
-.app-header {
-    flex: 1;
+.app__header {
     width: 100%;
-    height: 100%;
+    min-height: 80vh;
+    max-width: 1080px;
+    display: flex;
+    flex: 1;
     flex-direction: row;
-    gap: 2rem;
+    align-items: center;
+    justify-content: center;
 
     //padding: 6rem 2rem 0;
 
     @media screen and (min-width: 1440px) {
-        padding-top: 8rem;
+        //padding-top: 8rem;
     }
 
     @media screen and (max-width: 1024px) {
@@ -21,22 +24,24 @@
     }
 
     @media screen and (max-width: 768px) {
-        flex-direction: column;
+        //flex-direction: column;
 
     }
 
     @media screen and (max-width: 375px) {
-        flex-direction: column;
+        //flex-direction: column;
 
     }
 }
+
+
 
 .app__header-info {
     // flex: 0.65;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
 
     gap: 96px;
     height: 100%;

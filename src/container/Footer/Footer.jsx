@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className="app__footer">
       <div className="app__column">
-        <img src={images.logo} alt='logo' />
+        <img src={images.logo2} alt='logo' />
       </div>
       <div className="app__column">
         <p1 className="p2-text">RuWaMo Games has one idea - to make great games.

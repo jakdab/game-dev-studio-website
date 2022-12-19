@@ -4,11 +4,12 @@ import { FaBars } from 'react-icons/fa';
 
 export const Nav = styled.nav`
     background: #050009;
+    witdh: 100%;
     height: 130px;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem calc(100vh - 1000px) / 2);
     z-index: 10;
+    max-width: 1080px;
 `
 
 export const NavLink = styled(Link)`
@@ -53,7 +54,6 @@ export const NavMenu = styled.div`
 export const NavBtn = styled.nav`
     display: flex;
     align-items: center;
-    margin-right: 24px;
 
     @media screen and (max-width: 768px) {
         display: none;
