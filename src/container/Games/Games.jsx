@@ -29,11 +29,11 @@ const Games = () => {
   // }, []);
 
   return (
-    <div id="#games" className="app__games app__container">
+    <div id="games" className="app__games app__container">
       <div className="app__games-info">
         <div>
           <p className="p-gradient-text">Lose yourself in new magical worlds</p>
-          <h2 className="h2-text">Explore Games</h2>
+          <h2 className="h2-text margin-16">Explore Games</h2>
         </div>
         <div className="div-round">
           <iframe className="iframe-round"

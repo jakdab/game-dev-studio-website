@@ -10,7 +10,7 @@ const Footer = () => {
         <img src={images.logo2} alt='logo' />
       </div>
       <div className="app__column">
-        <p1 className="p2-text">RuWaMo Games has one idea - to make great games.
+        <p1 className="p2-text">
             We want to provide entertainment for whole family and that is why we aim at budget, high-level of polish titles for everybody!</p1>
       </div>
       <div className="app__column">

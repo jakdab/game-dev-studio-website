@@ -28,21 +28,21 @@ const Navbar = () => {
 
   return (
     <>
-      <Nav>
+      <nav className="app__navbar">
       {/* <Nav className={fix ? 'navbar fixed' : 'navbar'}> */}
-        <NavLink to="/">
+        <div className="app__navbar-logo">
           <img src={images.logo} alt='logo' />
-        </NavLink>
+        </div>
         <Bars />
-        <NavMenu>
-          <NavLink to="#games" activeStyle> Games</NavLink>
-          <NavLink to="#about" activeStyle>About</NavLink>
-          <NavLink to="#games" activeStyle>Platforms</NavLink>
-        </NavMenu>
-        <NavBtn>
-          <NavBtnLink to="#about">Contact</NavBtnLink>
-        </NavBtn>
-      </Nav>
+        <li className="app__navbar-menu">
+          <a className="app__navbar-links" href="#games" activeStyle>Games</a>
+          <a className="app__navbar-links" href="#about" activeStyle>About</a>
+          <a className="app__navbar-links" href="#games" activeStyle>Platforms</a>
+        </li>
+        <div className="app__navbar-btn">
+          <a className="app__navbar-btn-link" href="#about">Contact</a>
+        </div>
+      </nav>
     </>
   )
 }

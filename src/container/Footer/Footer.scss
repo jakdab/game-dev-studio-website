@@ -43,6 +43,7 @@
 
 .app__column {
     display: flex;
+    flex-direction: column;
     width: 100%; /* 392px */
 
     @media screen and (min-width: 1440px) {

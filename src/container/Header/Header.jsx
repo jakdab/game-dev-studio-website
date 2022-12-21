@@ -8,12 +8,14 @@ import './Header.scss';
 
 const Header = () => {
   return (
-    <div id="#header" className="app__header">
+    <div id="header" className="app__header">
       <div className="app__header-info">
         <div className="app__header-content">
           <h1 className="h1-text">discover new worlds</h1>
-          <p1 className="p-text">Ruwamo is a stand-alone game development studio which offers games on consoles and mobile devices</p1>
-          {/* <Buttons>Explore</Buttons> */}
+          <p1 className="p-text margin-16">Ruwamo is a stand-alone game development studio which offers games on consoles and mobile devices</p1>
+          <div className="app__btn-primary margin-24">
+            <a className="app__btn-primary-link" href="#games">Explore</a>
+          </div>
         </div>
 
         <div className="app__header-img">
