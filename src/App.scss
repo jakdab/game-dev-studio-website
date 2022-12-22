@@ -76,6 +76,22 @@
   width: 100%;
   min-height: 100vh;
   max-width: 1080px;
+
+  @media screen and (min-width: 1440px) {
+    //padding-top: 8rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+      
+  }
+
+  @media screen and (max-width: 768px) {
+    
+  }
+
+  @media screen and (max-width: 425px) {
+      min-height: 95vh;
+  }
 }
   
 .app__flex {
@@ -130,6 +146,12 @@
   }
 }
 
+
+/* -------------------------------- */
+/* ----------- MARGINS ------------ */
+/* -------------------------------- */
+
+
 .margin-24 {
   margin-top: 2rem;
 }
@@ -146,6 +168,12 @@
   margin-top: 0.25rem;
 }
 
+
+/* -------------------------------- */
+/* ---------- TYPOGRAPHY ---------- */
+/* -------------------------------- */
+
+
 .h1-text {
   /* Title */
 
@@ -153,7 +181,7 @@
   font-style: normal;
   font-weight: 900;
   // font-size: 4.5rem;
-  font-size: 4.45vw;
+  font-size: 4.45rem;
   //line-height: 86px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
@@ -161,22 +189,21 @@
   color: var(--white-color);
 
   @media screen and (min-width: 1440px) {
-    font-size: 4.5rem;  
-    width: 100%;
+    //font-size: 4.5rem;  
+    //width: 100%;
   }
 
-  // @media screen and (max-width: 1024px) {
-  //   font-size: 3.5rem; 
-  // }
+  @media screen and (max-width: 1024px) {
+    font-size: 4.25rem; 
+  }
 
-  // @media screen and (max-width: 768px) {
-  //   font-size: 4.5rem; 
-  // }
+  @media screen and (max-width: 768px) {
+    font-size: 4rem; 
+  }
 
-  // @media screen and (max-width: 375px) {
-  //   font-size: 3.5rem; 
-  // }
-
+  @media screen and (max-width: 425px) {
+    font-size: 3.5rem; 
+  }
 }
 
 .h2-text {
@@ -186,7 +213,7 @@
   font-style: normal;
   font-weight: 900;
   //font-size: 4rem;
-  font-size: 3.9vw;
+  font-size: 3.9rem;
   //line-height: 77px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -196,6 +223,18 @@
   @media screen and (min-width: 1440px) {
     font-size: 4rem;  
     width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    //font-size: 3.5rem; 
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 3.4rem; 
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 3rem; 
   }
 
   /* old code */
@@ -227,7 +266,7 @@
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 300;
-  font-size: 1.4vw;
+  font-size: 1.4rem;
   //font-size: 1.25rem;
   //line-height: 29px;
   letter-spacing: 0.02em;
@@ -235,8 +274,20 @@
   color: var(--white-color);
 
   @media screen and (min-width: 1440px) {
-    font-size: 1.25rem;  
-    width: 100%;
+    //font-size: 1.25rem;  
+    //width: 100%;
+  }
+
+  @media screen and (max-width: 1024px) {
+    //font-size: 3.5rem; 
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 1.3rem; 
+  }
+
+  @media screen and (max-width: 425px) {
+    font-size: 1.25rem; 
   }
 }
 
@@ -303,6 +354,12 @@
     font-size: 0.9rem;
   }
 }
+
+
+/* -------------------------------- */
+/* ----------- BUTTONS ------------ */
+/* -------------------------------- */
+
 
 .app__btn-primary {
   display: flex;

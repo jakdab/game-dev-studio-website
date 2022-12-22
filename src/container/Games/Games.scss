@@ -4,12 +4,45 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+
+    @media screen and (min-width: 1440px) {
+        //padding-top: 8rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        padding: 0 3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        padding: 0 2rem;
+    }
+
+    @media screen and (max-width: 425px) {
+        padding: 0 1.5rem;
+    }
 }
 
 .app__games-info {
     flex: 1;
     width: 100%;
     flex-direction: column;
+
+    @media screen and (min-width: 1440px) {
+        //padding-top: 8rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        
+    }
+
+    @media screen and (max-width: 768px) {
+        //flex-direction: column;
+    }
+
+    @media screen and (max-width: 425px) {
+        flex-direction: column;
+        gap: 2rem;
+    }
 }
 
 .app__tiles {
