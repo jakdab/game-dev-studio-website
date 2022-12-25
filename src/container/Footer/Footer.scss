@@ -44,7 +44,8 @@
 .app__logo {
     display: flex;
     flex-direction: column;
-    height: 80px;
+    //height: 80px;
+    width: 305px;
 
     @media screen and (min-width: 1440px) {
 
@@ -73,8 +74,9 @@
 .app__column {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
     width: 100%; /* 392px */
-    gap: 1rem;
     max-width: 392px;
 
     @media screen and (min-width: 1440px) {
@@ -83,6 +85,11 @@
 
     @media screen and (max-width: 1024px) {
         
+    }
+
+    @media screen and (max-width: 900px) {
+        align-items: center;
+        gap: 1rem;
     }
 
     @media screen and (max-width: 768px) {

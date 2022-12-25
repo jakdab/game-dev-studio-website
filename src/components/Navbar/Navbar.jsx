@@ -37,7 +37,7 @@ const Navbar = () => {
         <li className="app__navbar-menu">
           <a className="app__navbar-links" href="#games" activeStyle>Games</a>
           <a className="app__navbar-links" href="#about" activeStyle>About</a>
-          <a className="app__navbar-links" href="#games" activeStyle>Platforms</a>
+          <a className="app__navbar-links" href="#platforms" activeStyle>Platforms</a>
         </li>
         <div className="app__navbar-btn">
           <a className="app__navbar-btn-link" href="#about">Contact</a>

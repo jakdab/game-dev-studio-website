@@ -27,7 +27,7 @@ const App = () => {
           <Header />
           <Games />
           <About />
-          {/* <Platforms /> */}
+          <Platforms />
           <Footer />
         </Router>
       {/* </div> */}
