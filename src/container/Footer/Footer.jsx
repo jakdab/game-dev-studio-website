@@ -21,8 +21,12 @@ const Footer = () => {
       <div className="app__column app__column-meta">
         <p1 className="p2-text">RUWAMO Games © 2022 </p1>
         <div className="app__row">
-          <img className="icon" href="https://twitter.com/ruwamogames" src={images.twitter} alt='twitter link'/>
-          <img className="icon" href="https://www.youtube.com/@ruwamogames6030" src={images.youtube} alt='youtube link'/>
+          <a href="https://twitter.com/ruwamogames" target="_blank" className="link" alt='twitter link'>
+            <img className="icon" src={images.twitter}/>
+          </a>
+          <a href="https://www.youtube.com/@ruwamogames6030" target="_blank" className="link" alt='youtube link'>
+            <img className="icon" src={images.youtube}/>
+          </a>
         </div>
       </div>
     </div>

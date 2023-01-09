@@ -366,6 +366,29 @@
   }
 }
 
+.p-link {
+  cursor: pointer;
+  border-bottom: 3px solid white;
+  text-decoration: none;
+  color: var(--white-color);
+  transition: border-color 0.5s, color 0.5s;
+  
+  &:active,
+  &:hover {
+    border-color: #FB4F6A;
+    color: #FB4F6A;
+  }
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link-disabled {
+  text-decoration: none;
+  opacity: 40%;
+}
 
 /* -------------------------------- */
 /* ----------- BUTTONS ------------ */
@@ -489,4 +512,12 @@
   .copyright {
     padding: 2rem;
   }
+}
+
+
+.gradient {
+  position: absolute !important;
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
 }

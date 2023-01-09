@@ -14,6 +14,8 @@ import appstore from '../assets/Apple Appstore.png';
 import youtube from '../assets/Youtube.svg';
 import twitter from '../assets/Twitter.svg';
 
+import vector from '../assets/Vector.svg';
+
 export default {
   about01,
   about02,
@@ -27,4 +29,5 @@ export default {
   appstore,
   twitter,
   youtube,
+  vector,
 };

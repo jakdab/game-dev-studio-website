@@ -80,10 +80,41 @@
     }
 }
 
+
 .app__card {
     width: 272px;
     height: 332px;  
     padding: 36px;
+
+    display: flex;
+    //flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 2.25rem;
+
+    cursor: pointer;
+}
+
+.app__card {
+    width: 272px;
+    height: 332px;  
+    padding: 36px;
+
+    display: flex;
+    //flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    gap: 2.25rem;
+}
+
+.app__card-disabled {
+    width: 272px;
+    height: 332px;  
+    padding: 36px;
+
+
 
     display: flex;
     //flex: 1;

@@ -21,7 +21,10 @@ const About = () => {
               We want to provide entertainment for whole family and that is why we aim at budget, high-level of polish titles for everybody! 
             </p1>
           <h1 className="h1-text margin-16">Contact</h1>
-          <p1 className="p-text margin-8">Please feel free to contact us: contact@ruwamogames.com</p1>
+          <p1 className="p-text margin-8">Please feel free to contact us: 
+            
+          </p1> 
+          <a className="p-text p-link" href="mailto:contact@ruwamogames.com">contact@ruwamogames.com</a>
         </div>
       </div>
     </div>

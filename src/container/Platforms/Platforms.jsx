@@ -16,26 +16,46 @@ const Platforms = () => {
         </div>
 
         <div className="app__platforms-cards">
-          <div className="app__card">
-            <div className="app__card-logo">
-              <img src={images.google} alt="Google Play Store Logo"/>
-            </div>
-            <p1 className="p2-text">Google Play Store</p1>
-          </div>
+          <a className="link-disabled">
+            <motion.div 
+              //whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.5, type: 'tween' }}
+              className="app__card-disabled"
+              href=""
+            >
+              <div className="app__card-logo">
+                <img src={images.google} alt="Google Play Store Logo"/>
+              </div>
+              <p1 className="p2-text">Google Play Store</p1>
+            </motion.div>
+          </a>
 
-          <div className="app__card">
-            <div className="app__card-logo">
-              <img src={images.nintendo} alt="Nintendo Switch Logo"/>
-            </div>
-            <p1 className="p2-text">Nintendo Switch</p1>
-          </div>
+          <a href="https://www.nintendo.com/search/?cat=gme&f=softwarePublisher&softwarePublisher=RuWaMo%20Games" target="_blank" className="link ">
+            <motion.div 
+              whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.5, type: 'tween' }}
+              className="app__card"
+            >
+              <div className="app__card-logo">
+                <img src={images.nintendo} alt="Nintendo Switch Logo"/>
+              </div>
+              <p1 className="p2-text">Nintendo Switch</p1>
+            </motion.div> 
+          </a>
 
-          <div className="app__card">
-            <div className="app__card-logo">
-              <img src={images.appstore} alt="Apple Appstore Logo"/>
-            </div>
-            <p1 className="p2-text">Apple Appstore</p1>
-          </div>
+          <a className="link-disabled">
+            <motion.div 
+              //whileHover={{ scale: 1.1 }}
+              transition={{ duration: 0.5, type: 'tween' }}
+              className="app__card-disabled"
+              href=""
+            >
+              <div className="app__card-logo">
+                <img src={images.appstore} alt="Apple Appstore Logo"/>
+              </div>
+              <p1 className="p2-text">Apple Appstore</p1>
+            </motion.div>
+          </a>
 
         </div>
       </div>

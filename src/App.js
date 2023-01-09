@@ -8,7 +8,8 @@ import {
   Footer, 
   Header, 
   Games, 
-  Platforms 
+  Platforms,
+  Gradient
 } from './container/';
 
 import { 
@@ -19,19 +20,25 @@ import "./App.scss";
 
 const App = () => {
   return (
-    <div className="app">
-      {/* <div className="wrapper"> */}
-        <Router>
-          {/* <StickyNavbar /> */}
-          <Navbar />
-          <Header />
-          <Games />
-          <About />
-          <Platforms />
-          <Footer />
-        </Router>
-      {/* </div> */}
-    </div>
+    <>
+      <div className="app">
+        {/* <div className="wrapper"> */}
+          <Router>
+            {/* <StickyNavbar /> */}
+            <Navbar />
+            <Header />
+            <Games />
+            <About />
+            <Platforms />
+            <Footer />
+          </Router>
+        {/* </div> */}
+      </div>
+
+      {/* <div className="gradient">
+        <Gradient />
+      </div> */}
+    </>
   );
 }
 
