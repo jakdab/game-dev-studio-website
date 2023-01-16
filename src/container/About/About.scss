@@ -59,15 +59,6 @@
     // position: relative;
     // padding-left: 4rem;
 
-    img {
-        width: 100%;
-        object-fit: contain;
-        // z-index: 1;
-        filter: 
-            drop-shadow(0px 0px 250px rgba(247, 41, 75, 0.2)) 
-            drop-shadow(0px 0px 100px rgba(247, 41, 75, 0.5));
-    }
-
     @media screen and (min-width: 1440px) {
         width: 600px;
     }
@@ -83,7 +74,16 @@
     @media screen and (max-width: 425px) {
         width: 80%;
     }
-  }
+
+    img {
+        width: 100%;
+        object-fit: contain;
+        // z-index: 1;
+        // filter: 
+        //     drop-shadow(0px 0px 250px rgba(247, 41, 75, 0.2)) 
+        //     drop-shadow(0px 0px 100px rgba(247, 41, 75, 0.5));
+    }
+}
 
 .app__about-content {
     display: flex;

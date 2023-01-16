@@ -15,6 +15,7 @@ import youtube from '../assets/Youtube.svg';
 import twitter from '../assets/Twitter.svg';
 
 import vector from '../assets/Vector.svg';
+import vectors from '../assets/Glowing_Vectors.svg';
 
 export default {
   about01,
@@ -30,4 +31,5 @@ export default {
   twitter,
   youtube,
   vector,
+  vectors,
 };

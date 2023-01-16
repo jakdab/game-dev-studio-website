@@ -11,6 +11,7 @@ const About = () => {
         
         <div className="app__about-img">
           <img src={images.about} alt="Hero Logo Image"/>
+          {/* <div className="app__img-shadow"/> */}
         </div> 
         
         <div className="app__about-content">

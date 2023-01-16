@@ -70,28 +70,48 @@
     }
 }
 
+.app__carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;  
+    width: 100%;
+    cursor: grab;
+}
+
+.app__inner-carousel {
+    display: flex;
+    width: max-content; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    //flex-wrap: wrap;
+}
+
+
 /* --------------------------------- */
 /* ------- Player ClassNames ------- */
 /* --------------------------------- */ 
 
 .div-round {
-    overflow: hidden;
-    margin-top: 4rem;
+    //overflow: hidden;
     z-index: 11;
-    //width: 100%; 
-    padding-top: 56.25%;
-    height: 0;
+
+    //height: 0;
+    min-height: 38rem;
+    min-width: 67.5rem; 
+
+    margin: 2rem;
+    //padding-top: 56.25%;
     position: relative;
     -webkit-border-radius: 20px;
     border-radius: 24px;
+    //pointer-events: none;
 }
 
 .div-round::before {
     display: block;
- 
-    content: "";
 }
-
 
 .iframe-round {
     top: 0;

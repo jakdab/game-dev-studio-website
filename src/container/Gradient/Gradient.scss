@@ -4,12 +4,48 @@
     position: absolute;
 
     svg {
-        //position: absolute;
-        width: 537.06px;
-        height: 306.65px;
+        width: 537px;
+        height: 306px;
         
         background: #C045B4;
-        opacity: 0.75;
-        filter: blur(229.167px);
+        opacity: 90%;
+        filter: blur(230px);
+    }
+}
+
+.position-1 {
+    left: 0 !important;
+    top: 40vh !important;
+}
+
+.position-2 {
+    left: 20% !important;
+    top: 140vh !important;
+}
+
+.position-3 {
+    left: 5% !important;
+    top: 240vh !important;
+}
+
+.position-4 {
+    left: 80% !important;
+    top: 320vh !important;
+}
+
+.app__gradient-full {
+    top: 200vh;
+    left: 0;
+    height: 230vh;
+    width: 100%;
+    position: absolute;
+
+    svg {
+        width: 40%;
+        height: 200vh;
+        
+        background: #3E41E9;
+        opacity: 13%;
+        filter: blur(230px);
     }
 }

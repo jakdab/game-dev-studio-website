@@ -33,11 +33,13 @@ const App = () => {
             <Footer />
           </Router>
         {/* </div> */}
+        
+        <div className="gradient">
+          <Gradient />
+        </div>
       </div>
 
-      {/* <div className="gradient">
-        <Gradient />
-      </div> */}
+
     </>
   );
 }

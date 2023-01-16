@@ -20,6 +20,7 @@ const Header = () => {
 
         <div className="app__header-img">
           <img src={images.profile} alt="Hero Logo Image"/>
+          {/* <div className="app__img-shadow"/> */}
         </div>
       </div>
 

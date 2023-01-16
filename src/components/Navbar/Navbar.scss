@@ -102,6 +102,11 @@
     height: 100%;
     cursor: pointer;
 
+    &:hover {
+        transition: all 0.2s ease-in-out; 
+        color: #FB4F6A;
+    }
+
     &.active {
         color: #F82949;
     }
@@ -129,9 +134,9 @@
     &:hover {
         transition: all 0.2s ease-in-out; 
         border: 2px solid #FB4F6A;
+        //color: #F8CFD3;
     }
 }
-
 
 .app__navbar-menu {
     display: flex;

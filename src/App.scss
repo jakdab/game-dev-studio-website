@@ -13,6 +13,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  //overflow-x: hidden;
 
   //padding: 0rem 8rem 0rem 8rem;
 
@@ -514,10 +515,31 @@
   }
 }
 
+.app__img-shadow {
+  position: absolute;
+  border-radius: 50%;
+  z-index: -1;
+  left: 62%;
+  top: 35%;
+  width: 350px;
+  opacity: 75%;
+  height: 350px;
+  filter: blur(22px);
+  background-color: rgba(247,41,75,0.89);
+  box-shadow: 0px 0px 132px 9px rgba(247,41,75,0.89);
+  -webkit-box-shadow: 0px 0px 132px 9px rgba(247,41,75,0.89);
+  -moz-box-shadow: 0px 0px 132px 9px rgba(247,41,75,0.89);
+
+  // filter: 
+  //   drop-shadow(0px 0px 250px rgba(247, 41, 75, 0.2))
+  //   drop-shadow(0px 0px 100px rgba(247, 41, 75, 0.5));
+}
 
 .gradient {
   position: absolute !important;
-  z-index: 0;
+  z-index: -5;
+  top: 0;
+  overflow: hidden;
   width: 100%;
-  height: 100vh;
+  height: 420vh;
 }
